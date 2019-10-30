@@ -1,0 +1,261 @@
+{
+    "STATUS": "200",
+    "MESSAGE": "Success Questionnaire",
+    "DATA": [
+        {
+            "question_category_id": 1,
+            "question_category_name": "Questionnaire",
+            "question": [
+                {
+                    "question_id": 2,
+                    "question_type": "Single choise",
+                    "question": "Apakah Anda pernah menggunakan Jasa Bayu Buana Sebelumnya ?",
+                    "question_type_name": "Single choise",
+                    "choice": [
+                        {
+                            "question_choice": "pernah"
+                        },
+                        {
+                            "question_choice": "belum"
+                        }
+                    ],
+                    "sub_question": [
+                        {
+                            "question_id": 5,
+                            "question_type": "Text",
+                            "question": "Jika Pernah Kapan?",
+                            "question_type_name": "Text",
+                            "sub_choice": []
+                        },
+                        {
+                            "question_id": 6,
+                            "question_type": "Single Choise",
+                            "question": "Untuk Jasa dan Produk?",
+                            "question_type_name": "Single Choise",
+                            "sub_choice": [
+                                {
+                                    "question_choice": "Jasa"
+                                },
+                                {
+                                    "question_choice": "Produk"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "question_id": 3,
+                    "question_type": "Multiple Choise",
+                    "question": "Darimana Anda mengerahui produk atau jasa Bayu Buana?",
+                    "question_type_name": "Multiple Choise",
+                    "choice": [
+                        {
+                            "question_choice": "Iklan di Media sosial"
+                        },
+                        {
+                            "question_choice": "Iklan Televisi"
+                        },
+                        {
+                            "question_choice": "Iklan Koran"
+                        },
+                        {
+                            "question_choice": "Rekomendasi Teman"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 4,
+                    "question_type": "Multiple Choise",
+                    "question": "Mengapa Anda Memilih Bayu Buana?",
+                    "question_type_name": "Multiple Choise",
+                    "choice": [
+                        {
+                            "question_choice": "Promosi yang menarik dan beragam"
+                        },
+                        {
+                            "question_choice": "Tanggal Keberangkatan yang sesuai"
+                        },
+                        {
+                            "question_choice": "kemudahan mendapatkan informasi produk"
+                        },
+                        {
+                            "question_choice": "Tour COnsultant yang handal"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 18,
+                    "question_type": "single choise",
+                    "question": "apa yang jadi pertanyaan ?",
+                    "question_type_name": "single choise",
+                    "choice": [],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 19,
+                    "question_type": "single choise",
+                    "question": "apa yang jadi pertanyaan ?",
+                    "question_type_name": "single choise",
+                    "choice": [
+                        {
+                            "question_choice": "sosial 1"
+                        },
+                        {
+                            "question_choice": "sosial 2"
+                        }
+                    ],
+                    "sub_question": []
+                }
+            ]
+        },
+        {
+            "question_category_id": 2,
+            "question_category_name": "Acara Tour",
+            "question": [
+                {
+                    "question_id": 7,
+                    "question_type": "Single Choise",
+                    "question": "menarikkah jadwal perjalanan Anda?",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": [
+                        {
+                            "question_id": 8,
+                            "question_type": "Text",
+                            "question": " ",
+                            "question_type_name": "Text",
+                            "sub_choice": []
+                        }
+                    ]
+                },
+                {
+                    "question_id": 9,
+                    "question_type": "Single Choise",
+                    "question": "Ketepatan waktu acara harian?",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": [
+                        {
+                            "question_id": 10,
+                            "question_type": "Text",
+                            "question": " ",
+                            "question_type_name": "Text",
+                            "sub_choice": []
+                        }
+                    ]
+                },
+                {
+                    "question_id": 11,
+                    "question_type": "Sigle Choise",
+                    "question": "Kesesuaian Objek Wisata?",
+                    "question_type_name": "Sigle Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": [
+                        {
+                            "question_id": 12,
+                            "question_type": "Text",
+                            "question": " ",
+                            "question_type_name": "Text",
+                            "sub_choice": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "question_category_id": 3,
+            "question_category_name": "Hotel",
+            "question": [],
+            "hotel_id": "2",
+            "hotel_name": "test",
+            "hotel_image": "http://localhost:8001/media/hotel/813928455.png"
+        },
+        {
+            "question_category_id": 4,
+            "question_category_name": "Restoran",
+            "question": [],
+            "hotel_id": "2",
+            "hotel_name": "test",
+            "hotel_image": "http://localhost:8001/media/hotel/813928455.png"
+        },
+        {
+            "question_category_id": 5,
+            "question_category_name": "Transportasi",
+            "question": [
+                {
+                    "question_id": 13,
+                    "question_type": "single choise",
+                    "question": "apa yang jadi pertanyaan ?",
+                    "question_type_name": "single choise",
+                    "choice": [],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 14,
+                    "question_type": "Single Choise",
+                    "question": "mood ?",
+                    "question_type_name": "Single Choise",
+                    "choice": [],
+                    "sub_question": [
+                        {
+                            "question_id": 15,
+                            "question_type": "Multiple Choise",
+                            "question": "uhuy ?",
+                            "question_type_name": "Multiple Choise",
+                            "sub_choice": []
+                        }
+                    ]
+                },
+                {
+                    "question_id": 16,
+                    "question_type": "single choise",
+                    "question": "apa yang jadi pertanyaan ?",
+                    "question_type_name": "single choise",
+                    "choice": [],
+                    "sub_question": []
+                }
+            ]
+        }
+    ]
+}
