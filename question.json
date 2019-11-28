@@ -3,34 +3,34 @@
     "MESSAGE": "Success Questionnaire",
     "DATA": [
         {
-            "question_category_id": 1,
-            "question_category_name": "Questionnaire",
+            "question_category_id": 11,
+            "question_category_name": "Questionnaire!",
             "question": [
                 {
-                    "question_id": 2,
-                    "question_type": "Single choise",
-                    "question": "Apakah Anda pernah menggunakan Jasa Bayu Buana Sebelumnya ?",
-                    "question_type_name": "Single choise",
+                    "question_id": 49,
+                    "question_type": "Single Choise",
+                    "question": "Apakah Anda pernah menggunakan jasa Bayu Buana Sebelumnya?",
+                    "question_type_name": "Single Choise",
                     "choice": [
                         {
-                            "question_choice": "pernah"
+                            "question_choice": "Pernah"
                         },
                         {
-                            "question_choice": "belum"
+                            "question_choice": "Belum"
                         }
                     ],
                     "sub_question": [
                         {
-                            "question_id": 5,
+                            "question_id": 50,
                             "question_type": "Text",
-                            "question": "Jika Pernah Kapan?",
+                            "question": "Jika Pernah kapan ?",
                             "question_type_name": "Text",
                             "sub_choice": []
                         },
                         {
-                            "question_id": 6,
+                            "question_id": 51,
                             "question_type": "Single Choise",
-                            "question": "Untuk Jasa dan Produk?",
+                            "question": "Untuk jasa dan produk?",
                             "question_type_name": "Single Choise",
                             "sub_choice": [
                                 {
@@ -44,80 +44,57 @@
                     ]
                 },
                 {
-                    "question_id": 3,
+                    "question_id": 52,
                     "question_type": "Multiple Choise",
-                    "question": "Darimana Anda mengerahui produk atau jasa Bayu Buana?",
+                    "question": "Dari mana Anda mengetahui produk atau jasa Bayu Buana",
                     "question_type_name": "Multiple Choise",
                     "choice": [
                         {
-                            "question_choice": "Iklan di Media sosial"
+                            "question_choice": "Iklan di media sosial"
                         },
                         {
-                            "question_choice": "Iklan Televisi"
+                            "question_choice": "Iklan di media massa"
                         },
                         {
-                            "question_choice": "Iklan Koran"
+                            "question_choice": "Iklan di media sosial"
                         },
                         {
-                            "question_choice": "Rekomendasi Teman"
+                            "question_choice": "Iklan di media sosial"
                         }
                     ],
-                    "sub_question": []
-                },
-                {
-                    "question_id": 4,
-                    "question_type": "Multiple Choise",
-                    "question": "Mengapa Anda Memilih Bayu Buana?",
-                    "question_type_name": "Multiple Choise",
-                    "choice": [
+                    "sub_question": [
                         {
-                            "question_choice": "Promosi yang menarik dan beragam"
-                        },
-                        {
-                            "question_choice": "Tanggal Keberangkatan yang sesuai"
-                        },
-                        {
-                            "question_choice": "kemudahan mendapatkan informasi produk"
-                        },
-                        {
-                            "question_choice": "Tour COnsultant yang handal"
+                            "question_id": 53,
+                            "question_type": "Multiple Choise",
+                            "question": "Mengapa Anda memilih Bayu Buana ?",
+                            "question_type_name": "Multiple Choise",
+                            "sub_choice": [
+                                {
+                                    "question_choice": "Promosi yang menarik dan beragam"
+                                },
+                                {
+                                    "question_choice": "Tanggal keberangkatan yang sesuai"
+                                },
+                                {
+                                    "question_choice": "Kemudahan mendapatkan informasi produk"
+                                },
+                                {
+                                    "question_choice": "Tour consultant yang handal"
+                                }
+                            ]
                         }
-                    ],
-                    "sub_question": []
-                },
-                {
-                    "question_id": 18,
-                    "question_type": "single choise",
-                    "question": "apa yang jadi pertanyaan ?",
-                    "question_type_name": "single choise",
-                    "choice": [],
-                    "sub_question": []
-                },
-                {
-                    "question_id": 19,
-                    "question_type": "single choise",
-                    "question": "apa yang jadi pertanyaan ?",
-                    "question_type_name": "single choise",
-                    "choice": [
-                        {
-                            "question_choice": "sosial 1"
-                        },
-                        {
-                            "question_choice": "sosial 2"
-                        }
-                    ],
-                    "sub_question": []
+                    ]
                 }
             ]
         },
         {
-            "question_category_id": 2,
+            "question_category_id": 12,
             "question_category_name": "Acara Tour",
             "question": [
                 {
-                    "question_id": 7,
+                    "question_id": 38,
                     "question_type": "Single Choise",
-                    "question": "menarikkah jadwal perjalanan Anda?",
+                    "question": "Menarikkah jadwal perjalanan Anda?",
                     "question_type_name": "Single Choise",
                     "choice": [
                         {
@@ -133,18 +110,10 @@
                             "question_choice": "D"
                         }
                     ],
-                    "sub_question": [
-                        {
-                            "question_id": 8,
-                            "question_type": "Text",
-                            "question": " ",
-                            "question_type_name": "Text",
-                            "sub_choice": []
-                        }
-                    ]
+                    "sub_question": []
                 },
                 {
-                    "question_id": 9,
+                    "question_id": 54,
                     "question_type": "Single Choise",
                     "question": "Ketepatan waktu acara harian?",
                     "question_type_name": "Single Choise",
@@ -162,21 +131,13 @@
                             "question_choice": "D"
                         }
                     ],
-                    "sub_question": [
-                        {
-                            "question_id": 10,
-                            "question_type": "Text",
-                            "question": " ",
-                            "question_type_name": "Text",
-                            "sub_choice": []
-                        }
-                    ]
+                    "sub_question": []
                 },
                 {
-                    "question_id": 11,
-                    "question_type": "Sigle Choise",
-                    "question": "Kesesuaian Objek Wisata?",
-                    "question_type_name": "Sigle Choise",
+                    "question_id": 55,
+                    "question_type": "Single Choise",
+                    "question": "Kesesuaian obyek wisata ?",
+                    "question_type_name": "Single Choise",
                     "choice": [
                         {
                             "question_choice": "A"
@@ -191,67 +152,739 @@
                             "question_choice": "D"
                         }
                     ],
-                    "sub_question": [
+                    "sub_question": []
+                }
+            ]
+        },
+        {
+            "question_category_id": 13,
+            "question_category_name": "Hotel",
+            "question": [
+                {
+                    "hotel_id": "9",
+                    "hotel_name": "Miramar Hotel",
+                    "hotel_image": "http://localhost:8001/media/hotel/229713975.png",
+                    "hotel_rating": "4",
+                    "question": [
                         {
-                            "question_id": 12,
-                            "question_type": "Text",
-                            "question": " ",
-                            "question_type_name": "Text",
-                            "sub_choice": []
+                            "question_id": 39,
+                            "question_type": "Single Choise",
+                            "question": "Kebersihan dan kenyamanan",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        },
+                        {
+                            "question_id": 56,
+                            "question_type": "Single Choise",
+                            "question": "Layanan",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        },
+                        {
+                            "question_id": 57,
+                            "question_type": "Single Choise",
+                            "question": "Keramahan",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        },
+                        {
+                            "question_id": 58,
+                            "question_type": "Single Choise",
+                            "question": "Fasilitas hotel:",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        }
+                    ]
+                },
+                {
+                    "hotel_id": "10",
+                    "hotel_name": "City Beach Resort",
+                    "hotel_image": "http://localhost:8001/media/hotel/902158789.png",
+                    "hotel_rating": "4",
+                    "question": [
+                        {
+                            "question_id": 39,
+                            "question_type": "Single Choise",
+                            "question": "Kebersihan dan kenyamanan",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        },
+                        {
+                            "question_id": 56,
+                            "question_type": "Single Choise",
+                            "question": "Layanan",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        },
+                        {
+                            "question_id": 57,
+                            "question_type": "Single Choise",
+                            "question": "Keramahan",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        },
+                        {
+                            "question_id": 58,
+                            "question_type": "Single Choise",
+                            "question": "Fasilitas hotel:",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
                         }
                     ]
                 }
             ]
         },
         {
-            "question_category_id": 3,
-            "question_category_name": "Hotel",
-            "question": [],
-            "hotel_id": "2",
-            "hotel_name": "test",
-            "hotel_image": "http://localhost:8001/media/hotel/813928455.png"
-        },
-        {
-            "question_category_id": 4,
+            "question_category_id": 14,
             "question_category_name": "Restoran",
-            "question": [],
-            "hotel_id": "2",
-            "hotel_name": "test",
-            "hotel_image": "http://localhost:8001/media/hotel/813928455.png"
-        },
-        {
-            "question_category_id": 5,
-            "question_category_name": "Transportasi",
             "question": [
                 {
-                    "question_id": 13,
-                    "question_type": "single choise",
-                    "question": "apa yang jadi pertanyaan ?",
-                    "question_type_name": "single choise",
-                    "choice": [],
-                    "sub_question": []
-                },
-                {
-                    "question_id": 14,
-                    "question_type": "Single Choise",
-                    "question": "mood ?",
-                    "question_type_name": "Single Choise",
-                    "choice": [],
-                    "sub_question": [
+                    "hotel_id": "9",
+                    "hotel_name": "Miramar Hotel",
+                    "hotel_image": "http://localhost:8001/media/hotel/229713975.png",
+                    "hotel_rating": "4",
+                    "question": [
                         {
-                            "question_id": 15,
-                            "question_type": "Multiple Choise",
-                            "question": "uhuy ?",
-                            "question_type_name": "Multiple Choise",
-                            "sub_choice": []
+                            "question_id": 40,
+                            "question_type": "Single Choise",
+                            "question": "Layanan",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        },
+                        {
+                            "question_id": 59,
+                            "question_type": "Single Choise",
+                            "question": "Kebersihan",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        },
+                        {
+                            "question_id": 60,
+                            "question_type": "Single Choise",
+                            "question": "Variasi menu",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        },
+                        {
+                            "question_id": 61,
+                            "question_type": "Single Choise",
+                            "question": "Cita rasa",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
                         }
                     ]
                 },
                 {
-                    "question_id": 16,
-                    "question_type": "single choise",
-                    "question": "apa yang jadi pertanyaan ?",
-                    "question_type_name": "single choise",
+                    "hotel_id": "10",
+                    "hotel_name": "City Beach Resort",
+                    "hotel_image": "http://localhost:8001/media/hotel/902158789.png",
+                    "hotel_rating": "4",
+                    "question": [
+                        {
+                            "question_id": 40,
+                            "question_type": "Single Choise",
+                            "question": "Layanan",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        },
+                        {
+                            "question_id": 59,
+                            "question_type": "Single Choise",
+                            "question": "Kebersihan",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        },
+                        {
+                            "question_id": 60,
+                            "question_type": "Single Choise",
+                            "question": "Variasi menu",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        },
+                        {
+                            "question_id": 61,
+                            "question_type": "Single Choise",
+                            "question": "Cita rasa",
+                            "question_type_name": "Single Choise",
+                            "choice": [
+                                {
+                                    "question_choice": "A"
+                                },
+                                {
+                                    "question_choice": "B"
+                                },
+                                {
+                                    "question_choice": "C"
+                                },
+                                {
+                                    "question_choice": "D"
+                                }
+                            ],
+                            "sub_question": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "question_category_id": 15,
+            "question_category_name": "Transportasi",
+            "question": [
+                {
+                    "question_id": 41,
+                    "question_type": "Single Choise",
+                    "question": "Kebersihan dan kenyamanan",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 62,
+                    "question_type": "Single Choise",
+                    "question": "Cara Supir berkendara",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 63,
+                    "question_type": "Single Choise",
+                    "question": "Keramahan supir",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 64,
+                    "question_type": "Single Choise",
+                    "question": "Fasilitas keamanan Bus :",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": []
+                }
+            ]
+        },
+        {
+            "question_category_id": 16,
+            "question_category_name": "Tour Leader",
+            "question": [
+                {
+                    "question_id": 42,
+                    "question_type": "Single Choise",
+                    "question": "Kemampuan dalam memimpin rombongan",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 65,
+                    "question_type": "Single Choise",
+                    "question": "Kemampuan dalam mengatur waktu",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 66,
+                    "question_type": "Single Choise",
+                    "question": "Informatif",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 67,
+                    "question_type": "Single Choise",
+                    "question": "Pengetahuan tujuan wisata",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 68,
+                    "question_type": "Single Choise",
+                    "question": "Keramahan dan perhatian terhadap tamu",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 69,
+                    "question_type": "Single Choise",
+                    "question": "Kemampuan dalam mengatasi situasi",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": []
+                }
+            ]
+        },
+        {
+            "question_category_id": 17,
+            "question_category_name": "Local Guide",
+            "question": [
+                {
+                    "question_id": 43,
+                    "question_type": "Multiple Choise",
+                    "question": "Penguasaan dalam menerangkan obyek wisata",
+                    "question_type_name": "Multiple Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 70,
+                    "question_type": "Single Choise",
+                    "question": "Keramahan terhadap tamu",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 71,
+                    "question_type": "Single Choise",
+                    "question": "Sikap berinteraksi dengan tamu",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "A"
+                        },
+                        {
+                            "question_choice": "B"
+                        },
+                        {
+                            "question_choice": "C"
+                        },
+                        {
+                            "question_choice": "D"
+                        }
+                    ],
+                    "sub_question": []
+                }
+            ]
+        },
+        {
+            "question_category_id": 18,
+            "question_category_name": "Tingkat Kepuasan",
+            "question": [
+                {
+                    "question_id": 45,
+                    "question_type": "Rating",
+                    "question": "Apakah Anda puas dalam perjalanan bersama Bayu buana Kali ini?",
+                    "question_type_name": "Rating",
+                    "choice": [],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 72,
+                    "question_type": "Single Choise",
+                    "question": "Apakah Anda Tertarik untuk mengikuti kembali program tour Bayu Buana?",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "Ya"
+                        },
+                        {
+                            "question_choice": "Tidak"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 73,
+                    "question_type": "Single Choise",
+                    "question": "Sebutkan waktu dan tujuan wisata Anda berikutnya ?",
+                    "question_type_name": "Single Choise",
+                    "choice": [
+                        {
+                            "question_choice": "Liburan natal"
+                        },
+                        {
+                            "question_choice": "Liburan tahun baru"
+                        },
+                        {
+                            "question_choice": "Liburan low season"
+                        }
+                    ],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 74,
+                    "question_type": "Text",
+                    "question": "Tujuan wisata Anda Berikutnya ?",
+                    "question_type_name": "Text",
+                    "choice": [],
+                    "sub_question": []
+                },
+                {
+                    "question_id": 75,
+                    "question_type": "Text",
+                    "question": "Kesan dan harapan Anda terhadap Bayu Buana?",
+                    "question_type_name": "Text",
                     "choice": [],
                     "sub_question": []
                 }
