@@ -1,0 +1,17 @@
+{
+    "status" : 200,
+    "message" : "success",
+    "data" : [
+      {
+        "product_category_image" : "",
+        "product_category_desc" : "Rayap adalah golongan hama serangga yang dapat memakan zat selulosa pada kayu, kardus, kertas, kain wol, bahkan gypsum",
+        "product_category_name" : "Rayap",
+        "product_category_id" : "1",
+        "product_image" : "",
+        "product_desc" : "Ada 3 jenis rayap yang populer di Indonesia, yaitu rayap tanah, rayap kayu kering, dan rayap kayu lembab. Sifat rayap bukan hanya pengganggu saja, namun merusak. Sehingga jika dibiarkan begitu saja, kerugian yang anda dapat akan semakin besar karena semakin banyaknya furniture yang rusak",
+        "product_name" : "Jasa Pembasmi Rayap",
+        "product_code" : "RAYAP01",
+        "product_id" : "1",
+      }
+    ]
+}
