@@ -1,0 +1,71 @@
+{
+	"data": {
+		"fromRow": 1,
+		"items": [{
+				"createdAt": "2021-09-13T11:32:35.817+07:00",
+				"createdBy": "David Michle Albert",
+				"downloadType": "visit-plan-list",
+				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/visit/fetch",
+				"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+				"httpMethod": "GET",
+				"params": [{
+					"downloadParamId": "abeac2a3-095f-4639-957e-791d0e931658",
+					"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+					"paramName": "limit",
+					"paramType": 0,
+					"paramValue": "100000000"
+				}],
+				"status": true,
+				"updatedAt": "2021-09-13T11:32:35.817+07:00",
+				"updatedBy": "David Michle Albert"
+			},
+			{
+				"createdAt": "2021-09-13T11:32:35.817+07:00",
+				"createdBy": "David Michle Albert",
+				"downloadType": "visit-progress",
+				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/visit/progress",
+				"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+				"httpMethod": "GET",
+				"params": [{
+					"downloadParamId": "abeac2a3-095f-4639-957e-791d0e931658",
+					"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+					"paramName": "limit",
+					"paramType": 0,
+					"paramValue": "100000000"
+				}],
+				"status": true,
+				"updatedAt": "2021-09-13T11:32:35.817+07:00",
+				"updatedBy": "David Michle Albert"
+			},
+
+			{
+				"createdAt": "2021-09-13T11:32:35.817+07:00",
+				"createdBy": "David Michle Albert",
+				"downloadType": "public-holiday",
+				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/public-holiday/fetch",
+				"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+				"httpMethod": "GET",
+				"params": [{
+					"downloadParamId": "abeac2a3-095f-4639-957e-791d0e931658",
+					"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+					"paramName": "limit",
+					"paramType": 0,
+					"paramValue": "100000000"
+				}],
+				"status": true,
+				"updatedAt": "2021-09-13T11:32:35.817+07:00",
+				"updatedBy": "David Michle Albert"
+			}
+		],
+		"keyword": "",
+		"lastPage": 1,
+		"limit": 1000000,
+		"page": 1,
+		"sort": "desc",
+		"sortBy": "created_at",
+		"toRow": 14,
+		"totalRows": 14
+	},
+	"message": "",
+	"success": true
+}
