@@ -37,7 +37,6 @@
 				"updatedAt": "2021-09-13T11:32:35.817+07:00",
 				"updatedBy": "David Michle Albert"
 			},
-
 			{
 				"createdAt": "2021-09-13T11:32:35.817+07:00",
 				"createdBy": "David Michle Albert",
@@ -55,6 +54,42 @@
 				"status": true,
 				"updatedAt": "2021-09-13T11:32:35.817+07:00",
 				"updatedBy": "David Michle Albert"
+			},
+			{
+				"createdAt": "2021-09-13T10:54:11.881+07:00",
+				"createdBy": "",
+				"downloadType": "outlet-coverage",
+				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/outlet/coverage",
+				"downloadUrlId": "004e8c31-ca8f-420c-baa1-5c124d0f4d99",
+				"httpMethod": "GET",
+				"params": [{
+					"downloadParamId": "2c36280a-2f40-418a-b7ce-6f7330a81715",
+					"downloadUrlId": "004e8c31-ca8f-420c-baa1-5c124d0f4d99",
+					"paramName": "limit",
+					"paramType": 0,
+					"paramValue": "100000000"
+				}],
+				"status": true,
+				"updatedAt": "2021-09-13T10:54:11.881+07:00",
+				"updatedBy": ""
+			},
+			{
+				"createdAt": "2021-09-13T10:54:11.881+07:00",
+				"createdBy": "",
+				"downloadType": "priviledge-menus",
+				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/member/priviledge_menus",
+				"downloadUrlId": "004e8c31-ca8f-420c-baa1-5c124d0f4d99",
+				"httpMethod": "GET",
+				"params": [{
+					"downloadParamId": "2c36280a-2f40-418a-b7ce-6f7330a81715",
+					"downloadUrlId": "004e8c31-ca8f-420c-baa1-5c124d0f4d99",
+					"paramName": "limit",
+					"paramType": 0,
+					"paramValue": "100000000"
+				}],
+				"status": true,
+				"updatedAt": "2021-09-13T10:54:11.881+07:00",
+				"updatedBy": ""
 			}
 		],
 		"keyword": "",
