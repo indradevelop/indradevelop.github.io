@@ -92,22 +92,109 @@
 				"updatedBy": ""
 			},
 			{
-				"createdAt": "2021-09-13T10:54:11.881+07:00",
-				"createdBy": "",
-				"downloadType": "merchandise",
+				"createdAt": "2021-09-13T11:24:57.722+07:00",
+				"createdBy": "David Michle Albert",
+				"downloadType": "master-merchandise",
 				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/merchandise/fetch",
-				"downloadUrlId": "004e8c31-ca8f-420c-baa1-5c124d0f4d99",
+				"downloadUrlId": "f33e1fe7-5bda-4188-8f25-79eed7b2b927",
 				"httpMethod": "GET",
 				"params": [{
-					"downloadParamId": "2c36280a-2f40-418a-b7ce-6f7330a81715",
-					"downloadUrlId": "004e8c31-ca8f-420c-baa1-5c124d0f4d99",
+					"downloadParamId": "ab532ff6-45e0-41e0-a02f-865922f7b197",
+					"downloadUrlId": "f33e1fe7-5bda-4188-8f25-79eed7b2b927",
 					"paramName": "limit",
 					"paramType": 0,
 					"paramValue": "100000000"
 				}],
 				"status": true,
-				"updatedAt": "2021-09-13T10:54:11.881+07:00",
-				"updatedBy": ""
+				"updatedAt": "2021-09-13T11:24:57.722+07:00",
+				"updatedBy": "David Michle Albert"
+			}, {
+				"createdAt": "2021-09-13T11:30:13.973+07:00",
+				"createdBy": "David Michle Albert",
+				"downloadType": "master-area-shelflocation",
+				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/master/area_shelf_locations",
+				"downloadUrlId": "42fdfe27-92c4-47c5-943e-ce83a5a30d60",
+				"httpMethod": "GET",
+				"params": [{
+					"downloadParamId": "100ce0f6-29c0-4983-9d5d-d807d9b25f2b",
+					"downloadUrlId": "42fdfe27-92c4-47c5-943e-ce83a5a30d60",
+					"paramName": "limit",
+					"paramType": 0,
+					"paramValue": "100000000"
+				}],
+				"status": true,
+				"updatedAt": "2021-09-13T11:30:13.973+07:00",
+				"updatedBy": "David Michle Albert"
+			}, {
+				"createdAt": "2021-09-13T11:30:59.509+07:00",
+				"createdBy": "David Michle Albert",
+				"downloadType": "master-second-display",
+				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/master/second_displays",
+				"downloadUrlId": "0eead966-ed40-43a5-97b4-e9f019c8cf5c",
+				"httpMethod": "GET",
+				"params": [{
+					"downloadParamId": "42c5e3f0-6651-460a-9e34-0f2867c0ab2e",
+					"downloadUrlId": "0eead966-ed40-43a5-97b4-e9f019c8cf5c",
+					"paramName": "limit",
+					"paramType": 0,
+					"paramValue": "100000000"
+				}],
+				"status": true,
+				"updatedAt": "2021-09-13T11:30:59.509+07:00",
+				"updatedBy": "David Michle Albert"
+			}, {
+				"createdAt": "2021-09-13T11:31:33.459+07:00",
+				"createdBy": "David Michle Albert",
+				"downloadType": "master-focs",
+				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/master/focs",
+				"downloadUrlId": "b405a835-478a-4c85-833b-a9f76c9206a6",
+				"httpMethod": "GET",
+				"params": [{
+					"downloadParamId": "290abb74-4468-4bb0-8297-06b108ca44f1",
+					"downloadUrlId": "b405a835-478a-4c85-833b-a9f76c9206a6",
+					"paramName": "limit",
+					"paramType": 0,
+					"paramValue": "100000000"
+				}],
+				"status": true,
+				"updatedAt": "2021-09-13T11:31:33.459+07:00",
+				"updatedBy": "David Michle Albert"
+			},
+			{
+				"createdAt": "2021-09-13T11:32:03.795+07:00",
+				"createdBy": "David Michle Albert",
+				"downloadType": "master-posm",
+				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/master/posms",
+				"downloadUrlId": "bc4b61cd-7d6e-465f-a279-278f1ba73c94",
+				"httpMethod": "GET",
+				"params": [{
+					"downloadParamId": "e8e0141f-5190-49f9-b8d7-8f76a33106d1",
+					"downloadUrlId": "bc4b61cd-7d6e-465f-a279-278f1ba73c94",
+					"paramName": "limit",
+					"paramType": 0,
+					"paramValue": "100000000"
+				}],
+				"status": true,
+				"updatedAt": "2021-09-13T11:32:03.795+07:00",
+				"updatedBy": "David Michle Albert"
+			},
+			{
+				"createdAt": "2021-09-13T11:32:35.817+07:00",
+				"createdBy": "David Michle Albert",
+				"downloadType": "master-selling-price",
+				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/master/selling_prices",
+				"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+				"httpMethod": "GET",
+				"params": [{
+					"downloadParamId": "abeac2a3-095f-4639-957e-791d0e931658",
+					"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+					"paramName": "limit",
+					"paramType": 0,
+					"paramValue": "100000000"
+				}],
+				"status": true,
+				"updatedAt": "2021-09-13T11:32:35.817+07:00",
+				"updatedBy": "David Michle Albert"
 			}
 		],
 		"keyword": "",
