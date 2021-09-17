@@ -213,6 +213,60 @@
 				"status": true,
 				"updatedAt": "2021-09-13T11:32:35.817+07:00",
 				"updatedBy": "David Michle Albert"
+			},
+			{
+				"createdAt": "2021-09-13T11:32:35.817+07:00",
+				"createdBy": "David Michle Albert",
+				"downloadType": "type-return",
+				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/type-return",
+				"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+				"httpMethod": "GET",
+				"params": [{
+					"downloadParamId": "abeac2a3-095f-4639-957e-791d0e931658",
+					"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+					"paramName": "limit",
+					"paramType": 0,
+					"paramValue": "100000000"
+				}],
+				"status": true,
+				"updatedAt": "2021-09-13T11:32:35.817+07:00",
+				"updatedBy": "David Michle Albert"
+			},
+			{
+				"createdAt": "2021-09-13T11:32:35.817+07:00",
+				"createdBy": "David Michle Albert",
+				"downloadType": "reason-return",
+				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/reason-return",
+				"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+				"httpMethod": "GET",
+				"params": [{
+					"downloadParamId": "abeac2a3-095f-4639-957e-791d0e931658",
+					"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+					"paramName": "limit",
+					"paramType": 0,
+					"paramValue": "100000000"
+				}],
+				"status": true,
+				"updatedAt": "2021-09-13T11:32:35.817+07:00",
+				"updatedBy": "David Michle Albert"
+			},
+			{
+				"createdAt": "2021-09-13T11:32:35.817+07:00",
+				"createdBy": "David Michle Albert",
+				"downloadType": "return-product",
+				"downloadUrl": "http://178.128.90.130/ezview/gateway/api/v1/temp-return-product/fetch",
+				"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+				"httpMethod": "GET",
+				"params": [{
+					"downloadParamId": "abeac2a3-095f-4639-957e-791d0e931658",
+					"downloadUrlId": "b0833e75-cd10-4292-91fb-5ae740c863f3",
+					"paramName": "limit",
+					"paramType": 0,
+					"paramValue": "100000000"
+				}],
+				"status": true,
+				"updatedAt": "2021-09-13T11:32:35.817+07:00",
+				"updatedBy": "David Michle Albert"
 			}
 		],
 		"keyword": "",
