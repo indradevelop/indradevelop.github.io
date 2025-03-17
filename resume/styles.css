@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.contact-info p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    color: #007BFF;
+    margin-bottom: 1rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.job {
+    margin-bottom: 2rem;
+}
+
+.job h3 {
+    margin-bottom: 0.5rem;
+    color: #007BFF;
+}
+
+.job p {
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.job ul {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
