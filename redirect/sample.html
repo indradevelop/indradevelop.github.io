@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Launch Our App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            flex-direction: column;
+        }
+        .button {
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none; /* Initially hidden */
+        }
+        .app-store {
+            color: white;
+        }
+        .play-store {
+            color: white;
+        }
+        img {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div id='buttons'>
+        <a href='https://play.google.com/store/apps/details?id=me.s59.myudemo' class='button app-store'>
+            <img src='https://static.cdnlogo.com/logos/a/70/available-on-the-app-store.svg' alt='App Store'>
+        </a>
+        <a href='market://launch?id=me.s59.myudemo' class='button play-store'>
+            <img src='https://families.google/familylink/static/img/google-play/googleplay.png' alt='Play Store'>
+        </a>
+    </div>
+    <script>
+        const iosAppStoreURL  = 'https://play.google.com/store/apps/details?id=me.s59.myudemo';
+        // const androidPlayStoreURL  = 'market://launch?id=me.s59.myudemo';
+        const androidPlayStoreURL  = 'http://play.google.com/store/apps/details?id=me.s59.myudemo';
+        const customURL = 's59://open.my.app/IM8koXhqk-8jRyU47qAuYQ'; // Your custom scheme to try opening the app
+
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        const isAndroid = /Android/.test(navigator.userAgent);
+
+        document.querySelector('.app-store').style.display = 'block';
+        document.querySelector('.play-store').style.display = 'block';
+
+        const start = Date.now();
+        setTimeout(function () {
+            const now = Date.now();
+            // If more than 1500ms have passed, assume app was opened and user left the page
+            if (now - start < 1500) {
+            if (isIOS) {
+                window.location.href = iosAppStoreURL;
+            } else if (isAndroid) {
+                window.location.href = androidPlayStoreURL;
+            }
+            }
+        }, 1000);
+
+        // Try opening the app
+        window.location.href = customURL;
+
+        // // Try opening the app in a new window (tab)
+        // if (isIOS || isAndroid) {
+        //     var newWindow = window.open(appScheme, '_blank'); // Open a new tab or window
+        // }
+        
+        // if (isIOS) {
+        //     window.location = iosLink;
+        // } else if (isAndroid) {
+        //     window.location = androidLink;
+        // }
+    </script>
+</body>
+</html>
