@@ -1,0 +1,20 @@
+Input price: $1.25 per 1 million tokens (prompts <= 128k tokens)
+Output price: $5.00 per 1 million tokens (prompts <= 128k tokens)
+
+estimate for
+- 1000 requests/days
+- 2763 token prompts
+- 1000 token reponses
+
+Calculate Daily Token Usage:
+- Daily prompt tokens: 1000 requests * 2763 tokens/request = 2,763,000 tokens
+- Daily response tokens: 1000 requests * 1000 tokens/request = 1,000,000 tokens
+
+Calculate Daily Costs:
+- Daily prompt cost: (2,763,000 tokens / 1,000,000) * $1.25/million tokens = $3.45375
+- Daily response cost: (1,000,000 tokens / 1,000,000) * $5.00/million tokens = $5.00
+- Total daily cost: $3.45375 + $5.00 = $8.45375.
+
+
+dollar to idr
+Rp 139.023,63

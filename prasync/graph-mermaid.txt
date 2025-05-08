@@ -1,0 +1,42 @@
+graph LR
+    A[User Query] --> B(LangChain Application);
+    B --> C{Query Processing};
+    C -- Embedding Generation --> D[Gemini Embedding Model];
+    D --> E[Query Vector];
+    E --> F[ChromaDB Vector Database];
+    F -- Similarity Search --> G[Relevant Documents];
+    G --> H(LangChain Retriever);
+    H --> I[Context];
+    C -- Chat History Retrieval --> J[MongoDB Chat History];
+    J --> K[Chat History];
+    I --> L_combined[Combined Context & History]
+    K --> L_combined
+    L_combined --> L(LangChain LLM Chain);
+    L --> M[Gemini LLM];
+    M --> N[Response];
+    N --> B;
+    B --> O[User Response];
+
+    style A fill:#f9f,color:#000,stroke:#000,stroke-width:2px
+    style O fill:#f9f,color:#000,stroke:#333,stroke-width:2px
+    style F fill:#ccf,color:#000,stroke:#333
+    style J fill:#ccf,color:#000,stroke:#333
+    style D fill:#ccf,color:#000,stroke:#333
+    style M fill:#ccf,color:#000,stroke:#333
+
+    subgraph "LangChain Application"
+        B;
+        C;
+        H;
+        L;
+    end
+
+    subgraph "Data Storage"
+        F;
+        J;
+    end
+
+    subgraph "External Models"
+        D;
+        M;
+    end
