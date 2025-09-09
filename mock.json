@@ -1,0 +1,15 @@
+{
+  "responseCode": "00",
+  "responseMessage": "SUCCESS",
+  "descErrorCode": "Sukses",
+  "descErrorCodeEN": "Success",
+  "accountNumber": "00000000",
+  "refNumber": "111222",
+  "userAlias": "Jaka9990",
+  "customerId": "10000",
+  "accessNo": "1010100001",
+  "branchCode": "000",
+  "accountCcy": "IDR",
+  "eligible": 3,
+  "gcif": "G700000001"
+}
